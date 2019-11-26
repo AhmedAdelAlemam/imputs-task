@@ -1,0 +1,79 @@
+body {
+  overflow-x: hidden;
+}
+
+.text-decoration-none:hover {
+  color: #ccc !important;
+}
+/* pre loader  */
+.loader:empty {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid #007bff ;
+  border-right-color: transparent;
+  border-left: 1.1em solid #007bff;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* app component styles */
+
+.App {
+  text-align: center;
+}
+
+.fixed-padding {
+  padding: 0 15vw !important;
+}
+
+.categ-col {
+  width: 3vw !important;
+}
+
+.categ {
+  margin-left: -1rem;
+  margin-right: -1rem; 
+}
+
+.categ span {
+  position: relative;
+  left: -6rem;
+}
+
+.rc-pagination > li {
+  margin: 0 !important;
+  border: none !important;
+}
+
+.rc-pagination-item:hover {
+  border: 1px solid #2db7f5 !important;
+}
+
+.rc-pagination-item-active {
+  border: 1px solid #fff !important;
+}
+
+.rc-pagination-options-quick-jumper input {
+  margin-right: 0 !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
